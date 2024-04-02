@@ -1,0 +1,6 @@
+{
+	"extends": "@ljharb/tsconfig",
+	"compilerOptions": {
+		"target": "es5",																	/* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
+	},
+}

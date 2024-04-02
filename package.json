@@ -1,18 +1,72 @@
 {
-  "name": "@utilcode/simple-template-advanced",
-  "version": "1.0.0",
-  "description": "",
+  "name": "@npmtuanmap2024/maiores-eaque-est-tempora",
+  "version": "v1.0.0",
+  "description": "A simple cache for a few of the JS Error constructors.",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "exports": {
+    ".": "./index.js",
+    "./eval": "./eval.js",
+    "./range": "./range.js",
+    "./ref": "./ref.js",
+    "./syntax": "./syntax.js",
+    "./type": "./type.js",
+    "./uri": "./uri.js",
+    "./package.json": "./package.json"
   },
-  "author": "",
+  "sideEffects": false,
+  "keywords": [
+    "javascript",
+    "ecmascript",
+    "error",
+    "typeerror",
+    "syntaxerror",
+    "rangeerror"
+  ],
+  "author": "tuan149",
   "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/utilcode/simple-template.git"
+  "devDependencies": {
+    "@ljharb/eslint-config": "^21.1.0",
+    "@ljharb/tsconfig": "^0.1.1",
+    "@types/tape": "^5.6.4",
+    "aud": "^2.0.4",
+    "auto-changelog": "^2.4.0",
+    "eclint": "^2.8.1",
+    "eslint": "^8.8.0",
+    "evalmd": "^0.0.19",
+    "in-publish": "^2.0.1",
+    "npmignore": "^0.3.1",
+    "nyc": "^10.3.2",
+    "safe-publish-latest": "^2.0.0",
+    "tape": "^5.7.5",
+    "typescript": "next"
+  },
+  "auto-changelog": {
+    "output": "CHANGELOG.md",
+    "template": "keepachangelog",
+    "unreleased": false,
+    "commitLimit": false,
+    "backfillLimit": false,
+    "hideCredit": true
+  },
+  "publishConfig": {
+    "ignore": [
+      ".github/workflows"
+    ]
+  },
+  "engines": {
+    "node": ">= 0.4"
   },
   "dependencies": {
-    "axios": "^1.6.8"
-  }
+    "@npmtuanmap2024/assumenda-officia-consequatur-in": "^v1.0.0",
+    "@npmtuanmap2024/psychic-dollop": "^1.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/npmtuanmap2024/maiores-eaque-est-tempora.git"
+  },
+  "homepage": "https://github.com/npmtuanmap2024/maiores-eaque-est-tempora/#readme",
+  "bugs": {
+    "url": "https://github.com/npmtuanmap2024/maiores-eaque-est-tempora/issues"
+  },
+  "packageManager": "yarn@4.1.1"
 }
